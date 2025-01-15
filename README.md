@@ -78,13 +78,13 @@ from joblib import load
 model = load('XGBRegressor.joblib')
 predictions = model.predict(test_data)
 
-2. Make Predictions
+### 2. Make Predictions
 After loading the model, pass your test data to the model to predict the sales for respective products.
 
-3. Output
+### 3. Output
 The predictions will include the Item_Identifier and predicted sales, which can be saved into a new CSV file for further analysis.
 
-Conclusion
+### Conclusion
 This project demonstrates the complete workflow of building a sales prediction model from scratch. It covers data cleaning, feature engineering, model building, and evaluation. The use of Google Colab facilitates easy collaboration and access to computational resources for training and evaluating the models.
 
 Feel free to explore the code, modify it to suit your needs, and contribute to the project. If you have any questions, don't hesitate to open an issue!
